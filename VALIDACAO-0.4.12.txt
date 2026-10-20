@@ -1,0 +1,36 @@
+Prefeitura Z - validacao 0.4.12 / painel 2.1.6 - 20/10/2026
+408 verificacoes nas suites dos executaveis finais.
+
+OK: download publico LEIA-ME.md confere por SHA-256.
+OK: download publico PrefeituraZ-Admin.exe confere por SHA-256.
+OK: download publico PrefeituraZ-Launcher.exe confere por SHA-256.
+OK: download publico PrefeituraZ-Servidor-2.1.6-Windows.zip confere por SHA-256.
+OK: download publico PrefeituraZ-Servidor.exe confere por SHA-256.
+OK: download publico SHA256.json confere por SHA-256.
+OK: endpoint publico fixo retorna o manifesto assinado esperado.
+OK: PrefeituraZ-Launcher.exe consultou automaticamente o canal real, aceitou assinatura/sequencia e confirmou versao atual sem trocar executavel ou iniciar jogo.
+OK: PrefeituraZ-Admin.exe consultou automaticamente o canal real, aceitou assinatura/sequencia e confirmou versao atual sem trocar executavel ou iniciar jogo.
+OK: PrefeituraZ-Servidor.exe consultou automaticamente o canal real, aceitou assinatura/sequencia e confirmou versao atual sem trocar executavel ou iniciar jogo.
+OK: player 0.4.11 consultou o canal publico, aceitou assinatura/sequencia, baixou 0.4.12 e passou troca/reversao em copia isolada; nenhum jogo iniciado.
+OK: admin 0.4.11 consultou o canal publico, aceitou assinatura/sequencia, baixou 0.4.12 e passou troca/reversao em copia isolada; nenhum jogo iniciado.
+OK: server 2.1.5 consultou o canal publico, aceitou assinatura/sequencia, baixou 2.1.6 e passou troca/reversao em copia isolada; nenhum jogo iniciado.
+OK: helper real substituiu fixture assinada, executou nova versao e recebeu confirmacao.
+OK: nome personalizado preservado; pasta do launcher contem somente o EXE, sem .bak ou temporarios.
+OK: copia de recuperacao interna removida ao concluir a atualizacao ou a reversao.
+OK: helper real restaurou a fixture anterior depois de falha de inicio sem confirmacao.
+OK: nome personalizado preservado; pasta do launcher contem somente o EXE, sem .bak ou temporarios.
+OK: copia de recuperacao interna removida ao concluir a atualizacao ou a reversao.
+OK: helper real substituiu fixture assinada, executou nova versao e recebeu confirmacao.
+OK: nome personalizado preservado; pasta do launcher contem somente o EXE, sem .bak ou temporarios.
+OK: copia de recuperacao interna removida ao concluir a atualizacao ou a reversao.
+OK: helper real restaurou a fixture anterior depois de falha de inicio sem confirmacao.
+OK: nome personalizado preservado; pasta do launcher contem somente o EXE, sem .bak ou temporarios.
+OK: copia de recuperacao interna removida ao concluir a atualizacao ou a reversao.
+OK: helper real substituiu fixture assinada, executou nova versao e recebeu confirmacao.
+OK: nome personalizado preservado; pasta do launcher contem somente o EXE, sem .bak ou temporarios.
+OK: copia de recuperacao interna removida ao concluir a atualizacao ou a reversao.
+OK: helper real restaurou a fixture anterior depois de falha de inicio sem confirmacao.
+OK: nome personalizado preservado; pasta do launcher contem somente o EXE, sem .bak ou temporarios.
+OK: copia de recuperacao interna removida ao concluir a atualizacao ou a reversao.
+
+Troca, reversao e falhas foram exercitadas em copias temporarias/fixtures. Nenhum jogo ou dedicado remoto foi iniciado. O atualizador antigo pode gerar um ultimo .bak na primeira migracao; para evitar isso, substituir manualmente o EXE pela 0.4.12 antes de renomear.
