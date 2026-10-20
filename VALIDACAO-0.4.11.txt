@@ -1,0 +1,19 @@
+Prefeitura Z - validacao publica 0.4.11 / 2.1.5 - 20/10/2026
+
+OK: download publico LEIA-ME.md confere por SHA-256.
+OK: download publico PrefeituraZ-Admin.exe confere por SHA-256.
+OK: download publico PrefeituraZ-Admin.ico confere por SHA-256.
+OK: download publico PrefeituraZ-Launcher.exe confere por SHA-256.
+OK: download publico PrefeituraZ-Servidor-2.1.5-Windows.zip confere por SHA-256.
+OK: download publico PrefeituraZ-Servidor.exe confere por SHA-256.
+OK: download publico SHA256.json confere por SHA-256.
+OK: endpoint publico fixo retorna o manifesto assinado esperado.
+OK: PrefeituraZ-Launcher.exe consultou automaticamente o canal real, aceitou assinatura/sequencia e confirmou versao atual sem trocar executavel ou iniciar jogo.
+OK: PrefeituraZ-Admin.exe consultou automaticamente o canal real, aceitou assinatura/sequencia e confirmou versao atual sem trocar executavel ou iniciar jogo.
+OK: PrefeituraZ-Servidor.exe consultou automaticamente o canal real, aceitou assinatura/sequencia e confirmou versao atual sem trocar executavel ou iniciar jogo.
+OK: player 0.4.10 consultou o canal publico, aceitou assinatura/sequencia, baixou 0.4.11 e passou troca/reversao em copia isolada; nenhum jogo iniciado.
+OK: admin 0.4.10 consultou o canal publico, aceitou assinatura/sequencia, baixou 0.4.11 e passou troca/reversao em copia isolada; nenhum jogo iniciado.
+OK: server 2.1.4 consultou o canal publico, aceitou assinatura/sequencia, baixou 2.1.5 e passou troca/reversao em copia isolada; nenhum jogo iniciado.
+
+Correcao: canal retornava HTTP 404 enquanto o manifesto novo conservava o nome updates-0.4.11.json. Nome updates.json restaurado; manifesto anterior conservado como updates-0.4.10.json.
+A consulta e a troca/reversao usaram o codigo dos executaveis publicados 0.4.10/2.1.4 e copias temporarias. Nenhum jogo ou dedicado remoto foi iniciado.

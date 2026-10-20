@@ -4,9 +4,9 @@ Launchers oficiais da comunidade Prefeitura Z para Windows e Project Zomboid B42
 
 ## Downloads
 
-- [Launcher para jogadores](https://github.com/Sirrakx/PrefeituraZ-Launcher/releases/download/v0.4.10-b42-2.1.4/PrefeituraZ-Launcher.exe)
-- [Launcher Admin](https://github.com/Sirrakx/PrefeituraZ-Launcher/releases/download/v0.4.10-b42-2.1.4/PrefeituraZ-Admin.exe)
-- [Painel do dedicado 2.1.4 — ZIP](https://github.com/Sirrakx/PrefeituraZ-Launcher/releases/download/v0.4.10-b42-2.1.4/PrefeituraZ-Servidor-2.1.4-Windows.zip)
+- [Launcher para jogadores](https://github.com/Sirrakx/PrefeituraZ-Launcher/releases/download/v0.4.11-b42-2.1.5/PrefeituraZ-Launcher.exe)
+- [Launcher Admin](https://github.com/Sirrakx/PrefeituraZ-Launcher/releases/download/v0.4.11-b42-2.1.5/PrefeituraZ-Admin.exe)
+- [Painel do dedicado 2.1.5 — ZIP](https://github.com/Sirrakx/PrefeituraZ-Launcher/releases/download/v0.4.11-b42-2.1.5/PrefeituraZ-Servidor-2.1.5-Windows.zip)
 
 Instale a geração com atualização automática uma vez, substituindo o executável antigo com o launcher fechado. Depois, mantenha o mesmo atalho: o launcher verifica o canal assinado ao abrir e antes de iniciar o jogo. Confere assinatura e SHA-256 e guarda o executável anterior.
 
@@ -17,3 +17,4 @@ A edição Admin exige convite individual e conta autorizada; baixar esse execut
 O painel reconhece projectzomboid.jar na raiz ou em java e preserva o valor existente de DoLuaChecksum. Atualizações do painel exigem dedicado e auxiliares parados. Para instalar o painel, use o ZIP completo.
 
 [Detalhes técnicos e publicação de próximas versões](GUIA-ATUALIZACAO.md).
+Versões 0.4.11 / 2.1.5: código ofuscado e ícone exclusivo do Admin, com testes de conta, atualização e administração. [Detalhes da proteção e medições](OFUSCACAO-0.4.11.md).
