@@ -1,0 +1,15 @@
+Prefeitura Z - validacao da publicacao em 20/10/2026
+Release: https://github.com/Sirrakx/PrefeituraZ-Launcher/releases/tag/v0.4.10-b42-2.1.4
+Canal: https://github.com/Sirrakx/PrefeituraZ-Launcher/releases/download/channel-stable/updates.json
+
+OK: download publico PrefeituraZ-Admin.exe confere por SHA-256 e tamanho 4433408.
+OK: download publico PrefeituraZ-Launcher.exe confere por SHA-256 e tamanho 4433408.
+OK: download publico PrefeituraZ-Servidor-2.1.4-Windows.zip confere por SHA-256 e tamanho 3359952.
+OK: download publico PrefeituraZ-Servidor.exe confere por SHA-256 e tamanho 4089344.
+OK: endpoint publico fixo retorna o manifesto assinado esperado.
+OK: PrefeituraZ-Launcher.exe consultou automaticamente o canal real, aceitou assinatura/sequencia e confirmou versao atual sem trocar executavel ou iniciar jogo.
+OK: PrefeituraZ-Admin.exe consultou automaticamente o canal real, aceitou assinatura/sequencia e confirmou versao atual sem trocar executavel ou iniciar jogo.
+OK: PrefeituraZ-Servidor.exe consultou automaticamente o canal real, aceitou assinatura/sequencia e confirmou versao atual sem trocar executavel ou iniciar jogo.
+
+Os testes do canal usaram estado isolado. Nenhum jogo ou dedicado remoto foi iniciado. A substituicao de EXE e a reversao foram verificadas separadamente com executaveis de fixture.
+O ZIP versionado conserva o guia preparado antes da publicacao. O guia na branch principal incorpora o resultado da publicacao.
