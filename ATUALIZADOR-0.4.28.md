@@ -8,7 +8,7 @@ Com o jogo fechado e a Steam aberta, use **Aplicar perfil agora** ou **Jogar**. 
 
 O pacote completo é aplicado com backup: motor, DLL, Lua e registro de integridade. A memória escolhida e a pasta de dados são preservadas. A ponte PRZ mantém os argumentos de inicialização sob controle do launcher, enquanto a atualização do PZO passa a ser conduzida pela preparação automática.
 
-Uma inspeção de bytecode confere a API usada pela ponte sem executar as classes do pacote durante essa inspeção. Se a consulta, download ou compatibilidade dessa API falhar, o launcher tenta manter o último pacote completo guardado localmente. Há também um Lua de recuperação incluído; a primeira instalação do motor ainda exige download ou cache disponível. Uma instalação interrompida usa a recuperação transacional existente.
+Uma inspeção de bytecode confere a API usada pela ponte sem executar as classes do pacote durante essa inspeção. Se a consulta, download ou compatibilidade dessa API falhar, o launcher tenta manter o último pacote completo guardado localmente. O cache local guarda o pacote atual e o anterior; se ambos falharem, a instalação completa conferida no disco pode ser mantida. A primeira instalação exige acesso às fontes oficiais ou componentes compatíveis já disponíveis. Uma instalação interrompida usa a recuperação transacional existente.
 
 ## Atualização do próprio launcher
 
@@ -18,9 +18,9 @@ Quem já está em uma versão antiga com canal desativado ou ausente precisa ins
 
 ## Validação e limites
 
-A entrega usa como recuperação PZO Java/DLL/Lua 1.8.2. A validação cobre atualização futura simulada sem recompilar o launcher, Lua alterado sem mudar a versão, remoção de arquivos obsoletos, rollback, metadados inválidos, origem de download, proteção dos hashes, cache corrompido e recuperação offline com componentes já disponíveis.
+A versão testada do PZO é Java/DLL/Lua 1.8.2, obtida diretamente das fontes oficiais. Os arquivos do PZO não são incluídos nos EXEs distribuídos. A validação cobre atualização futura simulada sem recompilar o launcher, Lua alterado sem mudar a versão, remoção de arquivos obsoletos, rollback, metadados inválidos, origem de download, proteção dos hashes, cache corrompido e recuperação offline com componentes já disponíveis.
 
-Os executáveis finais passaram em três rodadas nas três edições: 51 suítes e 993 verificações numeradas. A cópia isolada migrou de Java/Lua 1.8.1 para 1.8.2, confirmou o agente ativo e abriu o save Solo. O teste gráfico foi feito pela edição Jogador; Admin/Controle receberam a validação automatizada. A voz foi desativada somente na cópia de teste por causa do bloqueio FMOD já diagnosticado neste PC; esse ajuste não é distribuído.
+Os executáveis finais passaram em três rodadas nas três edições: 51 suítes e 1011 verificações numeradas. A cópia isolada migrou de Java/Lua 1.8.1 para 1.8.2, confirmou o agente ativo e abriu o save Solo. O teste gráfico foi feito pela edição Jogador; Admin/Controle receberam a validação automatizada. A voz foi desativada somente na cópia de teste por causa do bloqueio FMOD já diagnosticado neste PC; esse ajuste não é distribuído.
 
 As verificações de integridade não são uma homologação prévia de toda versão futura publicada pelo autor. O canal acompanha versões estáveis oficiais; betas são excluídos. Uma mudança incompatível na API da ponte pode exigir uma nova versão do launcher, enquanto o pacote anterior é mantido. A estabilidade do modpack multiplayer inteiro permanece uma verificação adicional no servidor.
 
