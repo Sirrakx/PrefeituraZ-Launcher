@@ -4,13 +4,15 @@ Launchers oficiais da comunidade Prefeitura Z para Windows e Project Zomboid B42
 
 ## Downloads
 
-- [Launcher para jogadores](https://github.com/Sirrakx/PrefeituraZ-Launcher/releases/download/v0.4.16-b42-2.1.8/PrefeituraZ-Launcher.exe)
-- [Launcher Admin](https://github.com/Sirrakx/PrefeituraZ-Launcher/releases/download/v0.4.16-b42-2.1.8/PrefeituraZ-Admin.exe)
+- [Launcher para jogadores](https://github.com/Sirrakx/PrefeituraZ-Launcher/releases/download/v0.4.27-b42-2.1.8/PrefeituraZ-Launcher.exe)
+- [Launcher Admin](https://github.com/Sirrakx/PrefeituraZ-Launcher/releases/download/v0.4.27-b42-2.1.8/PrefeituraZ-Admin.exe)
+- [Launcher Controle](https://github.com/Sirrakx/PrefeituraZ-Launcher/releases/download/v0.4.27-b42-2.1.8/PrefeituraZ-Controle.exe)
+- [ZIP Windows 0.4.27 com as três edições e canal automático](https://github.com/Sirrakx/PrefeituraZ-Launcher/releases/download/v0.4.27-b42-2.1.8/PrefeituraZ-0.4.27-PZO-Windows.zip)
 - [Painel do dedicado 2.1.8 — ZIP](https://github.com/Sirrakx/PrefeituraZ-Launcher/releases/download/v0.4.16-b42-2.1.8/PrefeituraZ-Servidor-2.1.8-Windows.zip)
 
 Instale a geração com atualização automática uma vez, substituindo o executável antigo com o launcher fechado. Depois, mantenha o mesmo atalho: o launcher verifica o canal assinado ao abrir e antes de iniciar o jogo. Confere assinatura e SHA-256 e usa uma cópia interna temporária para recuperação.
 
-O PZ_Optimization é consultado no repositório oficial do autor e atualizado automaticamente quando a versão do jogo e as integrações forem compatíveis. Uma atualização incompatível é adiada e informada no log.
+A versão 0.4.27 substitui o PZ_Optimization pelo Project Zomboid Optimizer (PZO) 1.8.1, fixado por SHA-256. A preparação retira componentes ativos conhecidos do otimizador anterior com backup, preserva saves e a memória escolhida e mantém o canal próprio do Controle. Feche o jogo antes de aplicar o perfil. [Como atualizar, alcance da limpeza e validação](ATUALIZADOR-0.4.27.md).
 
 A edição Admin exige convite individual e conta autorizada; baixar esse executável não concede privilégios no servidor.
 
